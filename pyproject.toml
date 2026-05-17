@@ -1,0 +1,18 @@
+[project]
+name = "agent-patterns"
+version = "0.1.0"
+description = "Anthropic's 'Building Effective Agents' patterns, implemented as runnable demos with Microsoft Agent Framework (Python)."
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = { text = "MIT" }
+authors = [{ name = "Anant Pathak" }]
+dependencies = [
+    "agent-framework>=1.4.0",
+    "azure-identity>=1.25.3",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+]
+
+[tool.uv]
+package = false
